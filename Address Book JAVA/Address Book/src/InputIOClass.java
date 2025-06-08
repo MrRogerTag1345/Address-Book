@@ -21,9 +21,14 @@ public class InputIOClass {
         return dataList;
     }
 
-    public void AppendDatatoStorage(String name, String phoneNumber, String email, String address, List<String[]> addressBook) {
+    public void AppendDatatoStorage(String name, String phoneNumber, String email, String address,
+            List<String[]> addressBook) {
         addressBook.add(new String[] { name, phoneNumber, email, address });
-        
+
+        WriteToFile(addressBook);
+    }
+    
+    public void RemoveDatafromStorage(List<String[]> addressBook) {
         WriteToFile(addressBook);
     }
     
@@ -36,7 +41,7 @@ public class InputIOClass {
                 writer.newLine(); // moves to the next line
             }
         } catch (IOException e) {
-            e.printStackTrace(); // Optional: for debugging
+            e.printStackTrace(); 
         }
     }
 }
