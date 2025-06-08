@@ -1,0 +1,4 @@
+Alice Smith,123-456-7890,alice@example.com,123 Maple Street
+Bob Johnson,987-654-3210,bob@example.com,456 Oak Avenue
+Charlie Lee,555-123-4567,charlie@example.com,789 Pine Road
+Diana Prince,111-222-3333,diana@example.com,101 Elm Street
