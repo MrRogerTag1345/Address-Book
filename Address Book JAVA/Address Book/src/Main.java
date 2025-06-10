@@ -9,7 +9,7 @@
      public static void main(String[] args) {
  
          InputIOClass reader = new InputIOClass();
-         String path = new String("src/AddressBook.txt");
+         String path = new String("Address Book JAVA/Address Book/src/AddressBook.txt");
          List<String[]> addressBook = reader.Input(path);
          Process functionProcessor = new Process();
  

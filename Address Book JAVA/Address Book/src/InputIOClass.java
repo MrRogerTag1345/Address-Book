@@ -33,7 +33,7 @@ public class InputIOClass {
     }
     
     private void WriteToFile(List<String[]> addressBook) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("src/AddressBook.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("Address Book JAVA/Address Book/src/AddressBook.txt"))) {
             for (String[] contact : addressBook) {
                 // Join attributes with comma and write each contact as one line
                 String line = String.join(",", contact);
